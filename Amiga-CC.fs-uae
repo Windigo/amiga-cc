@@ -1,0 +1,13 @@
+# FS-UAE configuration for amiga-cc project
+# Mounts the out/ folder as a second hard drive so you can run the compiled binary
+# Usage: make run  (or start FS-UAE manually with this config)
+
+[fs-uae]
+amiga_model = A1200/020
+chip_memory = 2048
+fast_memory = 8192
+cpu = 68EC020
+jit_compiler = 1
+kickstart_file = A1200.47.115.rom
+hard_drive_0 = AMIGAStore.eu-OS3.2.3-Base-Amiga1200.hdf
+hard_drive_1 = /Volumes/M4-Lexar/Development/amiga/projects/amiga-cc/out

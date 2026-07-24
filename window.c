@@ -10,7 +10,7 @@ int main() {
       IDCMP_CLOSEWINDOW,
       WFLG_SIZEGADGET | WFLG_DRAGBAR | WFLG_DEPTHGADGET |    WFLG_CLOSEGADGET | WFLG_ACTIVATE,
       NULL, NULL,
-      "Compilation successful !",
+      "Compilation successfullllll !",
       NULL,NULL,
       0,0,
       600,400,
