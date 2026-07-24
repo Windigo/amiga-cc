@@ -1,0 +1,8 @@
+# FS-UAE configuration: boot from floppy (A1200, Kickstart 3.1)
+[fs-uae]
+amiga_model = A1200/020
+chip_memory = 2048
+fast_memory = 8192
+floppy_drive_0 = ./out/boot.adf
+jit_compiler = 1
+kickstart_file = A1200.47.115.rom

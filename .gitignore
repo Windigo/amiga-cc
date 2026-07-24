@@ -1,4 +1,6 @@
 .DS_Store
 out/
+*.adf
+startup-sequence
 window
 vbcc
